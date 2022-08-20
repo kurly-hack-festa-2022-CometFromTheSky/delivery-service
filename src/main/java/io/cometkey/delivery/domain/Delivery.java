@@ -50,9 +50,10 @@ public class Delivery {
     private LocalDateTime createdAt;
 
     @Builder
-    public Delivery(String memberName, Address address, DeliveryStatus deliveryStatus) {
+    public Delivery(String memberName, Address address, Long orderId, DeliveryStatus deliveryStatus) {
         this.memberName = memberName;
         this.address = address;
+        this.orderId = orderId;
         this.deliveryStatus = deliveryStatus;
     }
 
