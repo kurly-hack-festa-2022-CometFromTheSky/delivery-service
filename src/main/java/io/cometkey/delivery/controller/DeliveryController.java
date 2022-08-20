@@ -7,8 +7,8 @@ import io.cometkey.delivery.request.NewDeliveryItem;
 import io.cometkey.delivery.response.DeliveryItemResponse;
 import io.cometkey.delivery.response.DeliveryResponse;
 import io.cometkey.delivery.service.DeliveryService;
-import io.cometkey.delivery.type.Address;
-import io.cometkey.delivery.type.DeliveryStatus;
+import io.cometkey.delivery.domain.type.Address;
+import io.cometkey.delivery.domain.type.DeliveryStatus;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 

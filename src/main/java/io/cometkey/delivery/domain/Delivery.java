@@ -1,7 +1,7 @@
 package io.cometkey.delivery.domain;
 
-import io.cometkey.delivery.type.Address;
-import io.cometkey.delivery.type.DeliveryStatus;
+import io.cometkey.delivery.domain.type.Address;
+import io.cometkey.delivery.domain.type.DeliveryStatus;
 import lombok.*;
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.LastModifiedDate;
