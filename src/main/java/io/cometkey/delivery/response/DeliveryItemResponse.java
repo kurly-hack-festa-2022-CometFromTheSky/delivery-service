@@ -1,4 +1,4 @@
-package io.cometkey.delivery.domain.response;
+package io.cometkey.delivery.response;
 
 import lombok.*;
 

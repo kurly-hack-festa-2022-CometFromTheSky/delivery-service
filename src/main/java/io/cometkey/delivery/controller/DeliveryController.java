@@ -1,14 +1,14 @@
-package io.cometkey.delivery.domain.controller;
+package io.cometkey.delivery.controller;
 
 import io.cometkey.delivery.domain.Delivery;
 import io.cometkey.delivery.domain.DeliveryItem;
-import io.cometkey.delivery.domain.request.NewDelivery;
-import io.cometkey.delivery.domain.request.NewDeliveryItem;
-import io.cometkey.delivery.domain.response.DeliveryItemResponse;
-import io.cometkey.delivery.domain.response.DeliveryResponse;
-import io.cometkey.delivery.domain.service.DeliveryService;
-import io.cometkey.delivery.domain.type.Address;
-import io.cometkey.delivery.domain.type.DeliveryStatus;
+import io.cometkey.delivery.request.NewDelivery;
+import io.cometkey.delivery.request.NewDeliveryItem;
+import io.cometkey.delivery.response.DeliveryItemResponse;
+import io.cometkey.delivery.response.DeliveryResponse;
+import io.cometkey.delivery.service.DeliveryService;
+import io.cometkey.delivery.type.Address;
+import io.cometkey.delivery.type.DeliveryStatus;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 

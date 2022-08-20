@@ -1,4 +1,4 @@
-package io.cometkey.delivery.domain.type;
+package io.cometkey.delivery.type;
 
 public enum DeliveryStatus {
 

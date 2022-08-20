@@ -1,10 +1,10 @@
-package io.cometkey.delivery.domain.service;
+package io.cometkey.delivery.service;
 
 
 import io.cometkey.delivery.domain.Delivery;
 import io.cometkey.delivery.domain.DeliveryItem;
-import io.cometkey.delivery.domain.repository.DeliveryItemRepository;
-import io.cometkey.delivery.domain.repository.DeliveryRepository;
+import io.cometkey.delivery.repository.DeliveryItemRepository;
+import io.cometkey.delivery.repository.DeliveryRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
