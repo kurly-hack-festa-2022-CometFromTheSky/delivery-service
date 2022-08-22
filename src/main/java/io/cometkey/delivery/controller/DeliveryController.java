@@ -14,7 +14,7 @@ public class DeliveryController {
     private final DeliveryService deliveryService;
 
     @GetMapping("/v1/delivery/{key_id}")
-    public DeliveryResponse GetDeliveryInfo(@Valid @PathVariable String key_id) {
+    public DeliveryResponse GetDeliveryInfo(@Valid @PathVariable String key_id) throws Exception {
 
         return DeliveryResponse.builder()
                 .encryptedKey(this.deliveryService.getEncryptedKey(Long.valueOf(key_id)))
