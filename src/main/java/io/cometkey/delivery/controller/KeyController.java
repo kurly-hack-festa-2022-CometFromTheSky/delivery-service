@@ -13,6 +13,11 @@ public class KeyController {
 
     private final KeyService keyService;
 
+    @GetMapping("/health")
+    public void healthCheck() {
+
+    }
+
     @GetMapping("/v1/emulator/{token}")
     public KeyResponse GetDeliveryInfo(@Valid @PathVariable String token) throws Exception {
 
