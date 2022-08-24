@@ -4,12 +4,12 @@ import lombok.*;
 
 @Getter @Setter
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
-public class DeliveryResponse {
+public class KeyResponse {
 
     private String encryptedKey;
 
     @Builder
-    public DeliveryResponse(String encryptedKey) {
+    public KeyResponse(String encryptedKey) {
         this.encryptedKey = encryptedKey;
     }
 }
