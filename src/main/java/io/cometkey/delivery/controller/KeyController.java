@@ -1,6 +1,6 @@
 package io.cometkey.delivery.controller;
 
-import io.cometkey.delivery.response.KeyResponse;
+import io.cometkey.delivery.controller.response.KeyResponse;
 import io.cometkey.delivery.service.KeyService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
